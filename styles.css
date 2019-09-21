@@ -1,0 +1,85 @@
+* {
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: #3d0052;
+}
+
+button {
+    background-color: #0588d3;
+    border: 0px;
+    padding: 11px;
+    border-radius: 4px;
+    color: #fff;
+    height: 44px;
+    margin-top: 9px;
+    line-height: 14px;
+    font-weight: 600;
+    width: 14%;
+}
+
+div button {
+    display: inline-block;
+    margin: 2px;
+    float: none;
+}
+
+#app {
+    padding: 20px;
+    background-color: #ffffffe0;
+    border-radius: 4px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.contactEmail {
+    color: #412852;
+    font-size: 22px;
+}
+
+.contactsList {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contactLabel {
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #412852;
+}
+
+.contactItem {
+    height: 214px;
+    background: #ffffffeb;
+    border-radius: 4px;
+    padding: 33px;
+    margin: 10px;
+    max-height: 156px;
+}
+
+.contactImage{
+    border-radius: 4px;
+    float: left;
+    margin: 38px;
+    width: 89px;
+}
+
+.contactForm {
+    display: flex;
+    width: 100%;
+}
+
+.contactForm input {
+    display: table-cell;
+    width: 25%;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: none;
+    border: 0px;
+    background-color: #ffffffeb;
+    margin-right: 10px;
+    color: #fff;
+    margin: 10px;
+}
